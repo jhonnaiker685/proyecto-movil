@@ -1,0 +1,118 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Oswald:wght@300&display=swap')
+
+:root {
+     --fuente-principal: 'Oswald', sans-serif;
+     --blanco: #ffff ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fuente-principal);
+}
+
+header{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+}
+
+header .navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navegacion h2{
+    color: var(--blanco);
+    margin-left: 5px;
+}
+
+header .navegacion img{
+    margin-right: 5px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home .home-texto{
+    align-self: center;
+}
+
+.home .home-texto button{
+    padding: 10px;
+    color: var(--blanco);
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    margin-top: 10px;
+}
+
+.size-img{
+    width: 90%;
+    max-width: 320px;
+    height: 300px
+}
+
+.size-img{
+    margin: 0 auto;
+
+}
+.bg-card{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: var(--blanco);
+}
+
+.servicios .card-columns .border-card{
+    border: 3px solid #c2e59c;
+}
+
+.form-group{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.form-btn{
+    padding: 10px;
+    color: var(--blanco);
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    margin-top: 10px;
+}
+
+footer{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    padding: 30px;
+    justify-content: space-between;
+    outline: none;
+    margin-top: 30px;
+}
+
+.list{
+    list-style: none;
+    text-decoration: none;
+}
